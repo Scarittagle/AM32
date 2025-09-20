@@ -309,7 +309,7 @@ void MX_TIM1_Init(void)
     GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    GPIO_InitStruct.Alternate = LL_GPIO_AF_6;
+    GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
     LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = LL_GPIO_PIN_9;
@@ -317,7 +317,7 @@ void MX_TIM1_Init(void)
     GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    GPIO_InitStruct.Alternate = LL_GPIO_AF_6;
+    GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
     LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = LL_GPIO_PIN_10;
@@ -325,7 +325,7 @@ void MX_TIM1_Init(void)
     GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    GPIO_InitStruct.Alternate = LL_GPIO_AF_6;
+    GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
     LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = LL_GPIO_PIN_11;
@@ -333,7 +333,7 @@ void MX_TIM1_Init(void)
     GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    GPIO_InitStruct.Alternate = LL_GPIO_AF_6;
+    GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
     LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = LL_GPIO_PIN_12;
@@ -341,7 +341,7 @@ void MX_TIM1_Init(void)
     GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    GPIO_InitStruct.Alternate = LL_GPIO_AF_6;
+    GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
     LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = LL_GPIO_PIN_13;
@@ -349,7 +349,7 @@ void MX_TIM1_Init(void)
     GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    GPIO_InitStruct.Alternate = LL_GPIO_AF_6;
+    GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
     LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
     #endif
 }
